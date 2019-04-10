@@ -1,0 +1,45 @@
+hr{
+  width:100%;
+  border-top:none;
+}
+.el-row{
+  margin-top: 3%;
+}
+.el-col{
+  margin-left: 9.5%;
+}
+.el-card{
+  height: 300px;
+}
+#formalEnroll{
+  background-color: #FF9933;
+  color: #FFF;
+}
+#alreadyEnroll{
+  background-color: #33CC00; 
+  color: #FFF; 
+}
+#printCard{
+  background-color: #66CCCC;
+  color: #FFF;
+}
+.title{
+  font-size: 1.6em;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0;
+  margin-top: 15%;
+  width: 100%;
+  text-align: center;
+}
+.time{
+  font-size: 0.9em;
+  margin-top: 12px;
+  text-align: center;
+}
+.message{
+  margin-left: 1%;
+  width: 98%;
+  font-size: 1.03em;
+  font-weight: lighter;
+}

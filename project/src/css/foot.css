@@ -1,0 +1,24 @@
+#foot{
+	width: 100%;
+	height: 60px;
+	margin-top: 6%;
+	background-color: #545c64;
+	font-size: 0.9em;
+	color: #CCCCFF;
+	position: relative;
+}
+#foot a{
+	margin-left: 40px;
+	font-size: 0.9em;
+	color: #CCCCFF;
+}
+.friendlyLink{
+	margin-left: 100px;
+	position: absolute;
+	bottom: 10%;
+}
+.copyright{
+	position: absolute;
+	right: 100px;
+	bottom: 10%;
+}

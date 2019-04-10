@@ -1,0 +1,13 @@
+div{
+  font-family:"Helvetica Neue";
+  font-weight:bold; 
+}
+td{
+  height:50px;
+}
+table{
+  margin:0 auto;
+}
+#detailedinformation{
+	margin-top: 2%;
+}

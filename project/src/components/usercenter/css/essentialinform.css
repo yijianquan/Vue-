@@ -1,0 +1,21 @@
+div{
+  font-family:"Helvetica Neue";
+  font-weight:bold; 
+}
+td{
+  height:60px;
+}
+fillinform{
+  width:60%;
+  display:inline-block;
+  height:auto;
+  vertical-align:top;
+}
+.right1 div{ 
+  margin:0 auto;
+  width:60%;
+  margin-top:2%;
+}
+.warm{
+  color:red;
+}

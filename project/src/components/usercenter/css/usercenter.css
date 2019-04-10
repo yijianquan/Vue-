@@ -1,0 +1,50 @@
+div{
+  font-family:"Helvetica Neue";
+  font-weight:bold; 
+}
+a{
+  color:#000000;
+}
+.essentialinform{
+  width:60%;
+  display:inline-block;
+  height:auto;
+  vertical-align:top;
+}
+.detailedinform{
+  width:60%;
+  display:inline-block;
+  height:auto;
+  vertical-align:top;  
+}
+.left{
+  margin-top:2%;
+  width:20%;
+  display:inline-block;
+  margin-left:7%;
+  vertical-align:top;
+}
+.left div{
+  height:40px;
+  text-align: center;
+}
+.left span,.left a{
+  vertical-align: middle;
+}
+.content{
+  font-size: 1.2em;
+}
+.right1{
+  width:60%;
+  display:inline-block;
+  height:auto;
+  vertical-align:top;
+}
+.right1 div{ 
+  margin:0 auto;
+  width:60%;
+  margin-top:2%;
+}
+.warm{
+  color:red;
+}
