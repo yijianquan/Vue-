@@ -2,30 +2,30 @@
 	<div id="fillinform">
 		<table>
 			<tr>
-				<td><p>姓（汉字）：</p></td>
+				<td><p class="filllabel">姓（汉字）：</p></td>
 				<td><el-input v-model="input" placeholder="请输入内容"></el-input></td>
 			</tr>
 			<tr>
-				<td><p>名（汉字）：</p></td>
+				<td><p class="filllabel">名（汉字）：</p></td>
 				<td><el-input v-model="input" placeholder="请输入内容"></el-input></td>
 			</tr>
 			<tr>
-				<td><p>姓（拼音）：</p></td>
+				<td><p class="filllabel">姓（拼音）：</p></td>
 				<td><el-input v-model="input" placeholder="请输入内容"></el-input></td>
 			</tr>
 			<tr>
-				<td><p>名（拼音）：</p></td>
+				<td><p class="filllabel">名（拼音）：</p></td>
 				<td><el-input v-model="input" placeholder="请输入内容"></el-input></td>
 			</tr>
 			<tr>
-				<td><p>性别：</p></td>
+				<td><p class="filllabel">性别：</p></td>
 				<td><el-radio-group v-model="radio3">
 		          <el-radio-button label="男"></el-radio-button>
 		          <el-radio-button label="女"></el-radio-button>
 		        </el-radio-group></td>
 			</tr>
 			<tr>
-				<td><p>民族：</p></td>
+				<td><p class="filllabel">民族：</p></td>
 				<td><el-select v-model="value1" placeholder="--请选择民族--">
 		          <el-option
 		            v-for="item in options1"
@@ -35,7 +35,7 @@
 		          </el-option>
 		        </el-select></td>
 			<tr>
-				<td><p>证件类型  ：</p></td>
+				<td><p class="filllabel">证件类型  ：</p></td>
 				<td><el-select v-model="value2">
 		          <el-option
 		            v-for="item in options2"
@@ -45,7 +45,7 @@
 		          </el-option>
 		        </el-select></td>
 			<tr>
-				<td><p>证件号码  ：</p></td>
+				<td><p class="filllabel">证件号码  ：</p></td>
 				<td><el-input v-model="input" placeholder="请输入内容"></el-input></td>
 			</tr>
 		</table>
