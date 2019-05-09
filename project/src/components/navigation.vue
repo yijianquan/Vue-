@@ -9,7 +9,7 @@
     active-text-color="#ffd04b">
       <el-menu-item index="1" id="homepage" @click="toIndex">主页</el-menu-item>
       <el-menu-item index="2" @click="toUsercenter">个人中心 </el-menu-item>
-      <el-menu-item index="3">我要报考</el-menu-item>
+      <el-menu-item index="3" @click="toRegistexam">我要报考</el-menu-item>
       <el-menu-item index="4">已报考项目</el-menu-item>
       <el-menu-item index="5">报考须知</el-menu-item>
       <el-menu-item index="6">帮助</el-menu-item>
@@ -40,6 +40,10 @@
       },
       toIndex(){
         this.$emit('toIndex')
+      },
+      toRegistexam(){
+        console.log("跳转中")
+        this.$emit('toRegistexam')
       }
     }
   }
